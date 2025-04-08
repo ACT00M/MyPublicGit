@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* الجسم */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     line-height: 1.7;
@@ -24,7 +24,7 @@ header {
     border-radius: 0;
     border-bottom: 10px solid #874caf;
 }
-
+/* الإطار */
 header img {
     width: 150px;
     height: 150px;
@@ -32,9 +32,7 @@ header img {
     object-fit: cover;
 }
 
-
-
-/* الأقسام الرئيسية */
+/* الأقسام  */
 section {
     background: #1e1e1e;
     padding: 30px;
