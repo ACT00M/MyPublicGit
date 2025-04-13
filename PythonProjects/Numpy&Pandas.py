@@ -21,10 +21,10 @@ df=update_mark(df,'ahmed','math',100)
 df['result']=df['ave'].apply(lambda x: 'pass' if x>50 else 'fail')
 df['new prog']=df['prog'].apply(lambda x: x+10)
 
-df.plot(kind='bar', x=['math','prog'], y=['Value1', 'Value2'], edgecolor='black')
 
-plt.show()
 
 print(df)
 df1=df.query('ave>50')
 print(df1)
+
+
